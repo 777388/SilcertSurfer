@@ -60,7 +60,7 @@ def on_message(message, context):
                                 f.write(f"{domain}  {ip}\n")
                         print(f"{url} ({ip}) has open ports: {open_ports}")
                         print(f"https://domain.glass/{url}")
-                        print(f"https://shodan.io/search?query=hostname%3A{ip}")
+                        print(f"https://shodan.io/search?query={ip}")
                         print(f"https://www.google.com/search?q=site:{url}")
                         print(f"https://web.archive.org/cdx/search/cdx?url=*.{url}/*&output=json&fl=timestamp,original&collapse=urlkey")
         else:
