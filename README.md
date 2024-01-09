@@ -5,4 +5,4 @@ You'll need to place your Shodan API key into there. you can get a lifetime subs
 usage: python3 SilcertSurfer
 
 
-10-12 in police code means, Visitors are Present, Be Discrete.
+10-12 in police code means, Visitors are Present, Be Discrete. Relative to my own processing of this program alongside pseudomorphism and explainpi
