@@ -63,6 +63,8 @@ def on_message(message, context):
                         print(f"https://shodan.io/search?query={ip}")
                         print(f"https://www.google.com/search?q=site:{url}")
                         print(f"https://web.archive.org/cdx/search/cdx?url=*.{url}/*&output=json&fl=timestamp,original&collapse=urlkey")
+                        print(f"https://whois.arin.net/ui/advanced.jsp#{ip}&{domain}")
+                        print(f"https://cr.sh#{ip}&{domain}")
         else:
             pass
         
